@@ -1,4 +1,4 @@
-# This is Fullhouse web contest that I have submitted
+# This is Fullhouse web contests
 Include: C & C++
 - C:
   + Source code
