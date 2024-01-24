@@ -8,5 +8,3 @@
   + Theory of C++
   + Source code
   + File of contest
-
-- My profile: https://laptrinh24h.vn/user
