@@ -65,7 +65,7 @@ void VietHoa(string& str)
         str[i] = tolower(str[i]);
 }
 
-void ChuanHoaTen(string& str)
+string ChuanHoaTen(string& str)
 {
     string Ten = str;
     string s = "";
@@ -78,6 +78,7 @@ void ChuanHoaTen(string& str)
         s += " ";
     }
     s.erase(s.size() - 1, 1);
+    return s;
 }
 
 SinhVien Nhap1Sv(int stt)
@@ -87,7 +88,7 @@ SinhVien Nhap1Sv(int stt)
     getline(cin, sv.HoTen);
     getline(cin, sv.Lop);
     getline(cin, sv.Email);
-    ChuanHoaTen(sv.HoTen);
+    sv.HoTen = ChuanHoaTen(sv.HoTen);
     string Nganh = "";
     for (int i = 0; i < sv.Lop.size(); i++)
         if (sv.Lop[i] < '0' || sv.Lop[i] > '9')
@@ -98,7 +99,7 @@ SinhVien Nhap1Sv(int stt)
 
 bool TimKiemSvTheoNganh(SinhVien sv, string NganhHoc)
 {
-    if (sv.NganhHoc.substr(0, NganhHoc.size()) == NganhHoc.substr(0, NganhHoc.size()))
+    if (sv.NganhHoc == NganhHoc)
         return true;
     else
         return false;
@@ -147,4 +148,3 @@ int main()
     
     return 0;
 }
-// Chưa fix hết
