@@ -1,22 +1,6 @@
 #include<iostream>
 #include <cmath>
-
 using namespace std;
-
-void PTThuaSoNguyenTo(long long);
-
-int main()
-{
-    long long n;
-    cin >> n;
-    if (n == 1)
-    {
-        cout << "1^1";
-        return 0;
-    }
-    PTThuaSoNguyenTo(n);
-    return 0;
-}
 
 void PTThuaSoNguyenTo(long long n)
 {
@@ -24,17 +8,25 @@ void PTThuaSoNguyenTo(long long n)
     {
         if (n % i == 0)
         {
-            long long cnt = 0;
+            long long mu = 0;
             while (n % i == 0)
             {
-                cnt++;
+                mu++;
                 n /= i;
             }
-            cout << i << "^" << cnt << " ";
+            cout << i << "^" << cnt;
             if (n != 1)
-                cout << "* ";
+                cout << " * ";
         }
     }    
     if (n != 1)
         cout << n << "^1";
+}
+
+int main()
+{
+    long long n;
+    cin >> n;
+    PTThuaSoNguyenTo(n);
+    return 0;
 }
