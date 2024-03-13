@@ -1,3 +1,7 @@
 1.LÝ THUYẾT SỐ:
 ---------------
 	https://www.hackerrank.com/dsa-ly-thuyet-so1
+
+2. MẢNG 1 CHIỀU:
+---------------
+	https://www.hackerrank.com/mang-1-chieu-1
