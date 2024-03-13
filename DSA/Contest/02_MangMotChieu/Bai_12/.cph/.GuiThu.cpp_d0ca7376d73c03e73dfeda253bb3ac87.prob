@@ -1,1 +1,0 @@
-{"name":"Local: GuiThu","url":"d:\\LapTrinh\\FullHouse\\DSA\\Contest\\02_MangMotChieu\\Bai_12\\GuiThu.cpp","tests":[{"id":1710340186738,"input":"4\n-5 -2 2 7","output":"3 12\n3 9\n4 7\n5 12"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\LapTrinh\\FullHouse\\DSA\\Contest\\02_MangMotChieu\\Bai_12\\GuiThu.cpp","group":"local","local":true}
