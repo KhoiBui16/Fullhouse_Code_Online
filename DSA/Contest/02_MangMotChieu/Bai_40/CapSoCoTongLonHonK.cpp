@@ -39,6 +39,21 @@ long CountSumOfPair(int arr[], int n, int k)    // Cách 1
     return count;
 }
 
+int main()
+{
+    int n, k;
+    cin >> n >> k;
+
+    int arr[n]; 
+    for (int i = 0; i < n; i++)
+        cin >> arr[i];
+
+    sort(arr, arr + n);
+    long result = CountSumOfPair(arr, n, k);
+    cout << result;
+    return 0;
+}
+
 /*  Cách 2 nhanh hơn
 long countSumOfPair(int arr[], int n, int k)
 {
@@ -62,17 +77,4 @@ long countSumOfPair(int arr[], int n, int k)
 */
 
 
-int main()
-{
-    int n, k;
-    cin >> n >> k;
 
-    int arr[n]; 
-    for (int i = 0; i < n; i++)
-        cin >> arr[i];
-
-    sort(arr, arr + n);
-    long result = CountSumOfPair(arr, n, k);
-    cout << result;
-    return 0;
-}
