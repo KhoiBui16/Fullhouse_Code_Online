@@ -17,3 +17,15 @@
 5. CHUỖI KÝ TỰ:
 --------------
 	https://www.hackerrank.com/xau-ki-tuco-ban-1
+
+6. SẮP XẾP VÀ TÌM KIẾM:
+-----------------------
+	https://www.hackerrank.com/sap-xep-tim-kiem
+
+7. THUẬT TOÁN SINH:
+------------------
+	https://www.hackerrank.com/thuat-toan-sinh-1662576193
+
+8. QUAY LUI - NHÁNH CẬN
+----------------------
+	https://www.hackerrank.com/quaylui-nhanhcan
