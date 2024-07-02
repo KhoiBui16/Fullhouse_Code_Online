@@ -29,3 +29,19 @@
 8. QUAY LUI - NHÁNH CẬN
 ----------------------
 	https://www.hackerrank.com/quaylui-nhanhcan
+
+9. THAM LAM
+----------------------
+	https://www.hackerrank.com/tham-lam
+
+10.LÝ THUYẾT ĐỒ THỊ
+----------------------
+	https://www.hackerrank.com/dsaly-thuyet-do-thgraph-theory
+
+11. QUY HOẠCH ĐỘNG
+----------------------
+	https://www.hackerrank.com/dsa-dpquy-hoach-dong
+
+12. CHIA ĐỂ TRỊ
+----------------------
+	https://www.hackerrank.com/dsa-chia-va-tr
