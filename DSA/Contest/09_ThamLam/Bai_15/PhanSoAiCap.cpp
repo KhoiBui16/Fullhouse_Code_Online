@@ -24,8 +24,6 @@ void solve()
 {
     int P, Q; cin >> P >> Q;
     egyptian(P, Q);
-    
-
 }
 
 int main()
